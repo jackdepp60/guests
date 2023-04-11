@@ -374,14 +374,6 @@ body {
         }
     }
 
-    @keyframes opa {
-        from {
-            opacity: 0;
-        }
-        to {    
-            opacity: .8;
-        }
-    }
 }
 
 @media (min-width: 401px) and (max-width: 600px) {
