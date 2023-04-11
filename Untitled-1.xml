@@ -1,0 +1,48 @@
+
+
+
+const array = [[1, 2], [3, 4], [5, 6];
+
+for (let i = 0; i < array.length; i++) {
+  for (let j = 0; j < array[i].length; j++) {
+    console.log(array[i][j]);
+  }
+
+array is an array that contains three elements, each of which is another array: [1, 2], [3, 4], and [5, 6].
+
+The outer loop (for (let i = 0; i < array.length; i++)) iterates through each element of array, which are the inner arrays. The loop variable i represents the index of the current inner array.
+
+The inner loop (for (let j = 0; j < array[i].length; j++)) iterates through each element of the current inner array (array[i]). The loop variable j represents the index of the current element within the inner array.
+
+The console.log(array[i][j]); statement logs the value of the current element within the inner array. The value is accessed using the indices i and j (for example, array[0][1] would access the value 2).
+
+Here's the process step by step, as the loops iterate:
+
+Outer loop starts with i = 0, accessing the first inner array [1, 2].
+
+
+Inner loop starts with j = 0, logging the value array[0][0], which is 1.
+
+
+Inner loop continues with j = 1, logging the value array[0][1], which is 2.
+
+
+Outer loop continues with i = 1, accessing the second inner array [3, 4].
+
+
+Inner loop starts with j = 0, logging the value array[1][0], which is 3.
+
+
+Inner loop continues with j = 1, logging the value array[1][1], which is 4.
+
+
+Outer loop continues with i = 2, accessing the third inner array [5, 6].
+
+
+Inner loop starts with j = 0, logging the value array[2][0], which is 5.
+
+
+Inner loop continues with j = 1, logging the value array[2][1], which is 6.
+
+
+In summary, the nested loop iterates through all the elements in the 2-dimensional array and logs each element's value one by one.
