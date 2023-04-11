@@ -443,15 +443,6 @@ body {
             width: calc(100% - 30px);
         }
     }
-
-    @keyframes opa {
-        from {
-            opacity: 0;
-        }
-        to {    
-            opacity: 1;
-        }
-    }
 }
 
 }
